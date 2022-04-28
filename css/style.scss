@@ -781,7 +781,10 @@ body {
 		position: relative;
 	}
 	// .recipes__export
-	&__export {
+	&__export{
+	}
+	// .recipes__link
+	&__link {
 		position: absolute;
 		z-index: 2;
 		top: 40px;
@@ -837,7 +840,7 @@ body {
 		background: #34C759;
 		color: #1A1A1A;
 	}
-	.card-recipes__export:hover &{
+	.card-recipes__link:hover &{
 		background: url("../img/recipes/dinner.jpg") center / cover no-repeat;
 	}
 	@media (max-width: 760px){
