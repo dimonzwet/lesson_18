@@ -778,19 +778,13 @@ body {
 	}
 	// .recipes__card
 	&__card {
-		position: relative;
-	}
-	// .recipes__export
-	&__export{
 	}
 	// .recipes__link
 	&__link {
 		position: absolute;
-		z-index: 2;
 		top: 40px;
 		right: 35px;
 		padding: 12px;
-		position: absolute;
 		transform: translate(-50%,0px);
 		background-color: rgba(0, 0, 0, 0.3);
 		border-radius: 50%;
@@ -839,9 +833,6 @@ body {
 	&:hover{
 		background: #34C759;
 		color: #1A1A1A;
-	}
-	.card-recipes__link:hover &{
-		background: url("../img/recipes/dinner.jpg") center / cover no-repeat;
 	}
 	@media (max-width: 760px){
 		padding: 20px 0px;
